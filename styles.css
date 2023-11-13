@@ -1,0 +1,126 @@
+body {
+    background-color: rgb(58, 58, 58);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+button:link, button:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 1vh 1vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+  
+.videos {
+    display: grid;
+    grid-row: 2;
+    grid-template-columns: 50vw 25vw;
+    grid-template-rows: 28vh 28vh;
+    width: 75vw;
+    height: 56vh;
+    margin-top: 2px;
+    margin-bottom: 50px;
+}
+
+.video1 {
+    grid-column: 1 / 2;
+    width: 99%;
+    height: 200%;
+    position: relative;
+}
+
+.video2 {
+    grid-column: 2;
+    grid-row: 1;
+    position: relative;
+    width: 25vw;
+    height: 100%;
+}
+
+.video3 {
+    position: relative;
+    grid-column: 2;
+    grid-row: 2;
+    width: 25vw;
+    height: 100%;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 100%;
+}
+
+#myBtn:hover {
+    background-color: #ff4d4d;
+}
+
+.title {
+    margin: auto;
+    grid-column: 1;
+    grid-row: 3;
+    padding-top: 2px;
+    padding-bottom: 4px;
+    width: 15vw;
+    font-size: 2vw;
+    background-color: rgba(255, 0, 0, 0.562);
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.caramba {
+    justify-content: center;
+    grid-row: 4;
+}
+
+.gabriel {
+    position: absolute;
+    width: 20vw;
+    height: 5vh;
+    right: -1vw;
+    top: 9vh;
+    font-size: 1vw;
+}
+
+.eu {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 40%;
+}
+
+.meuCard {
+    background-color: rgb(172, 255, 251);
+}
+
+.otherCards {
+    background-color: grey;
+    font-size: larger;
+}
+
+.thumb {
+    margin-top: 10px;
+    margin-left: 9px;
+    height: auto;
+    width: 35%;
+}
+
+.gabrieltitle {
+    font-size: 1vw;
+}
